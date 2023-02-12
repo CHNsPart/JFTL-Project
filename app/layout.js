@@ -10,6 +10,7 @@ export default function RootLayout({ children }) {
       */}
       <head />
       <body>
+        <div id='bg-pattern' className='w-full h-screen top-[100%] absolute -z-20 bg-white opacity-60' />
         <NavBar/>
         {children}
       </body>

@@ -16,11 +16,11 @@ const Landing = () => {
           />
         {/* Main Element */}
         <section className='absolute flex flex-row justify-around items-center w-[100%] h-[100%]'>
-          <div className='text-left flex flex-col justify-center items-center w-full'>
+          <div className='flex flex-col justify-center items-center w-full'>
             <h1 className='text-7xl text-white font-bold'>
               JAPAN FAST<br/>TRADE LTD
             </h1>
-            <h2 className='w-full justify-center items-center flex text-lg text-white pt-3'>
+            <h2 className='w-full flex justify-center items-center text-lg text-white pt-3'>
               Presenting Bangladeshi seafood delicacy from <br/>the Sundarban (world’s largest mangrove forest)<br/> to the rest of the World
             </h2>
           </div>

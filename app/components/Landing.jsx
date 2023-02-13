@@ -1,7 +1,7 @@
 "use-client"
 import React from 'react'
 //import videoBg from '../../public/jftlbg.mp4'
-import landing from "./landing.css"
+import "./landing.css"
 
 const Landing = () => {
   return (
@@ -15,18 +15,29 @@ const Landing = () => {
             loop={true}
           />
         {/* Main Element */}
-        <section className='absolute flex flex-row justify-around items-center w-[100%] h-[100%]'>
-          <div className='flex flex-col justify-center items-center w-full'>
+        <section className='absolute flex flex-row justify-around items-center w-full h-full'>
+        <div className='flex flex-row justify-center items-center h-full w-full'>
+          <div className='flex flex-col'>
+            <h1 className='text-7xl leading-tight text-white font-bold'>
+                <span className='text-red-500/90 bg-white px-2 rounded-lg'>JAPAN</span> FAST<br/>TRADE LTD
+            </h1>
+            <h2 className='flex justify-center pr-28 items-center text-lg text-white pt-3'>
+            Presenting Bangladeshi seafood delicacy from <br/>the Sundarban (world’s largest mangrove forest)<br/> to the rest of the World
+            </h2>
+            <button className={`bg-gradient-to-r from-lightBrandBlue to-darkBrandBlue w-64 tracking-wider h-16 mt-5 rounded-full text-2xl font-bold text-white font-sans`} > Contact Us </button>
+          </div>
+        </div>
+{/*           <div className='flex flex-col justify-start justify-self-start items-center w-full'>
             <h1 className='text-7xl text-white font-bold'>
               JAPAN FAST<br/>TRADE LTD
             </h1>
-            <h2 className='w-full flex justify-center items-center text-lg text-white pt-3'>
-              Presenting Bangladeshi seafood delicacy from <br/>the Sundarban (world’s largest mangrove forest)<br/> to the rest of the World
+            <h2 className='flex justify-center pr-16 items-center text-lg text-white pt-3'>
+            Presenting Bangladeshi seafood delicacy from <br/>the Sundarban (world’s largest mangrove forest)<br/> to the rest of the World
             </h2>
-          </div>
+            <button className={`bg-gradient-to-r from-cyan-500 to-blue-500 w-32 tracking-wider h-10 rounded-full`} > Contact Us </button>
+          </div> */}
 
-          <div className='text-right flex flex-row justify-center w-full '>
-            
+          <div className='text-right flex flex-row justify-center items-center h-full w-full'>
             <div id="circle-orbit-container"> 
               <div 
                 id="middle-orbit"
@@ -51,11 +62,7 @@ const Landing = () => {
                 </div>
               </div>
             </div>
-
-            
           </div>
-
-
         </section>
     </div>
   )

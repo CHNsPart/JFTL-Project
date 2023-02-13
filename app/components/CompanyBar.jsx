@@ -14,10 +14,14 @@ import uniglobal from "../../public/uniglobal.svg"
 
 const CompanyBar = () => {
   return (
-    <div className='resize h-48 w-screen flex flex-row justify-center items-center'>
+    <div className='flex h-auto w-full flex-col justify-center items-center'>
         {/* <Carousel>
             <div>okay</div>
         </Carousel> */}
+        <div className='h-40 w-full mb-10 flex justify-center items-center'>
+            <h1 className='text-7xl text-brandBlue font-bold'>Our Partners</h1>
+        </div>
+        <div className='resize h-48 w-full flex flex-row justify-center items-center'>
         <div className='h-40 w-64 flex justify-center items-center'>
             <Image src={dni} alt="DNI" className='h-32 w-32' />
         </div>
@@ -42,6 +46,7 @@ const CompanyBar = () => {
         <div className='h-40 w-64 flex justify-center items-center'>
             <Image src={uniglobal} alt="uniglobal" className='h-32 w-32' />
         </div>
+    </div>
     </div>
   )
 }

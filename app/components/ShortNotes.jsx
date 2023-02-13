@@ -25,7 +25,7 @@ const ShortNotes = () => {
                 </div>
 
                 <p className='text-left w-full'>
-                    A Joint Venture between <span className='font-bold text-brandBlue'>Japan & Bangladesh</span>
+                    A Joint Venture between <br/><span className='font-bold text-brandBlue'>Japan & Bangladesh</span>
                 </p>
             </div>
             <div className='w-[390px] mx-4 h-[200px] rounded-xl px-10 bg-white flex flex-col justify-center items-center bg-clip-padding backdrop-filter border-2 border-gray-200 hover:border-brandBlue hover:border-2 transition-all duration-500 ease-in-out backdrop-blur-sm bg-opacity-20 hover:shadow-2xl shadow-lg'>
@@ -47,7 +47,7 @@ const ShortNotes = () => {
                 </div>
 
                 <p className='text-left w-full'>
-                    A <span className='font-bold text-brandBlue'>100% export</span> oriented company
+                    A <span className='font-bold text-brandBlue'>100% export</span><br/>oriented company
                 </p>
             </div>
         </div>
@@ -61,7 +61,7 @@ const ShortNotes = () => {
                 </div>
 
                 <p className='text-left w-full'>
-                    <span className='font-bold text-brandBlue'>Mud Crab Farming</span>, Processing & Export
+                    <span className='font-bold text-brandBlue'>Mud Crab Farming</span>, (Frozen Mud Crab / Frozen Soft Shell Crab / Live Mud Crabs / Hard Shell Crab) Processing & Export
                 </p>
             </div>
             <div className='w-[390px] mx-4 h-[200px] rounded-xl px-10 bg-white flex flex-col justify-center items-center bg-clip-padding backdrop-filter border-2 border-gray-200 hover:border-brandBlue hover:border-2 transition-all duration-500 ease-in-out backdrop-blur-sm bg-opacity-20 hover:shadow-2xl shadow-lg'>
@@ -83,7 +83,7 @@ const ShortNotes = () => {
                 </div>
 
                 <p className='text-left w-full'>
-                    Shayamnagar, Satkhira, <span className='font-bold text-brandBlue'>Bangladesh</span>
+                    Shayamnagar, Satkhira, <br/><span className='font-bold text-brandBlue'>Bangladesh</span>
                 </p>
             </div>
         </div>

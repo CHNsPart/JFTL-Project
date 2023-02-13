@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import map from "../../public/JFTL-Map.png"
-import { FaFeatherAlt } from "react-icons/fa"
+import { GiBurningForest } from "react-icons/gi"
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
           <div className='w-full flex flex-col justify-center justify-self-start items-center'>
             <div className='w-[30rem] px-10'>
               <div className='h-16 w-16 bg-white shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue'>
-                <FaFeatherAlt size={20} className='text-brandBlue'/>
+                <GiBurningForest size={30} className='text-brandBlue'/>
               </div>
             </div>
             <p className='text-left text-lg px-10 w-[30rem]'>

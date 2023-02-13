@@ -6,6 +6,7 @@ import ShortNotes from './components/ShortNotes'
 import Footer from './components/Footer'
 import Example from './components/Example'
 import CompanyBar from './components/CompanyBar'
+import ValueChain from './components/ValueChain'
 /* import localFont from '@next/font/local'
 
 const local = localFont({
@@ -22,9 +23,10 @@ export default function Home() {
     <main className="h-[100%] w-[100%]">
       <Landing/>
       <About/>
-      <ShortNotes/>
+      <ValueChain/>
       <CompanyBar/>
-      {/* <Footer/> */}
+      <ShortNotes/>
+      <Footer/>
       {/* <Example/> */}
     </main>
   )

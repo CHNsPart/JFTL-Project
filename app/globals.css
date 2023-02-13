@@ -15,6 +15,19 @@
 	border-radius: 60%;
 }
 
+button{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+@font-face {
+  font-family: 'Arsenica';
+  src: url('../public/fonts/ArsenicaTrial-Bold.ttf') format('truetype');
+}
+
+h1{
+	font-family: Arsenica;
+}
+
 ::-webkit-scrollbar
 {
 	width: 8px;

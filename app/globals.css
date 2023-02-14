@@ -8,15 +8,15 @@
 } */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;800;900&display=swap');
 
-::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
-	background-color: #050505;
-	border-radius: 60%;
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #050505;
+  border-radius: 60%;
 }
 
-button{
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+button {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
 @font-face {
@@ -24,29 +24,33 @@ button{
   src: url('../public/fonts/ArsenicaTrial-Bold.ttf') format('truetype');
 }
 
-h1{
-	font-family: Arsenica;
+h1 {
+  font-family: Arsenica;
 }
 
-::-webkit-scrollbar
-{
-	width: 8px;
+p {
+  font-family: system-ui;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
   height: 5px;
-	background-color: #000000;
+  background-color: #000000;
 }
 
-::-webkit-scrollbar-thumb
-{
-	border-radius: 60%;
-	background-color: #020202;
-	background-image: -webkit-linear-gradient(top,
-											  #979797 0%,
-											  #c4c4c4 50%,
-											  #adadad 51%,
-											  #8d8d8d 100%);
+::-webkit-scrollbar-thumb {
+  border-radius: 60%;
+  background-color: #020202;
+  background-image: -webkit-linear-gradient(
+    top,
+    #979797 0%,
+    #c4c4c4 50%,
+    #adadad 51%,
+    #8d8d8d 100%
+  );
 }
-#bg-pattern{
-  background-image: url(".././public/crabbgf.png");
+#bg-pattern {
+  background-image: url('.././public/crabbgf.png');
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 20%;

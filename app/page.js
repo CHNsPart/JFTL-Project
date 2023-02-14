@@ -1,12 +1,12 @@
-import Image from 'next/image'
-//import { Inter } from '@next/font/google'
-import Landing from './components/Landing'
-import About from './components/About'
-import ShortNotes from './components/ShortNotes'
-import Footer from './components/Footer'
-import Example from './components/Example'
-import CompanyBar from './components/CompanyBar'
-import ValueChain from './components/ValueChain'
+//import Image from 'next/image';
+import Landing from './components/Landing';
+import About from './components/About';
+import ShortNotes from './components/ShortNotes';
+import Footer from './components/Footer';
+import CompanyBar from './components/CompanyBar';
+import ValueChain from './components/ValueChain';
+import ImageGallery from './components/ImageGallery';
+// import Example from './components/Example'
 /* import localFont from '@next/font/local'
 
 const local = localFont({
@@ -21,13 +21,14 @@ const local = localFont({
 export default function Home() {
   return (
     <main className="h-[100%] w-[100%]">
-      <Landing/>
-      <About/>
-      <ValueChain/>
-      <CompanyBar/>
-      <ShortNotes/>
-      <Footer/>
+      <Landing />
+      <About />
+      <ValueChain />
+      <CompanyBar />
+      <ShortNotes />
+      <ImageGallery />
+      <Footer />
       {/* <Example/> */}
     </main>
-  )
+  );
 }

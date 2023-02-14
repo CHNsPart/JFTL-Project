@@ -1,4 +1,4 @@
-'use-client';
+'use client';
 import React from 'react';
 import Image from 'next/image';
 import footer from '../../public/footer.png';
@@ -18,7 +18,7 @@ const Footer = () => {
         width="auto"
         className="h-auto w-full"
       />
-      <div className="absolute w-1/2 bg-brandBlue h-auto rounded-2xl">
+      <div className="absolute w-1/2 bg-brandBlue h-auto rounded-2xl md:ml-96">
         <h1 className="text-center text-white text-5xl text-bold py-10">
           Contact Us
         </h1>
@@ -31,16 +31,16 @@ const Footer = () => {
           <input
             name="sname"
             type="email"
-            className="px-10 py-5 text-lg rounded-lg mx-5"
+            className="px-10 md:my-5 py-5 text-lg rounded-lg mx-5"
             placeholder="e-main"
           />
           <input
             name="ssubject"
             type="text"
-            className="px-10 py-5 text-lg rounded-lg mx-5"
+            className="px-10 py-5 md:mb-5 text-lg rounded-lg mx-5"
             placeholder="your query"
           />
-          <button className="px-10 py-5 text-lg rounded-lg mx-5 bg-black text-white">
+          <button className="px-10 md:px-32 py-5 text-lg rounded-lg mx-5 bg-black text-white">
             Submit
           </button>
         </form>

@@ -14,36 +14,33 @@ import uniglobal from '../../public/uniglobal.svg';
 
 const CompanyBar = () => {
   return (
-    <div className="flex h-auto w-full pt-10 flex-col justify-center items-center">
-      {/* <Carousel>
-            <div>okay</div>
-        </Carousel> */}
-      <div className="h-40 w-full mb-10 flex justify-center items-center">
-        <h1 className="text-7xl text-brandBlue font-bold">Our Partners</h1>
+    <div className="flex flex-col items-center justify-center pt-10 w-full">
+      <div className="mb-10 w-full flex justify-center items-center">
+        <h1 className="text-4xl md:text-7xl text-brandBlue font-bold">Our Partners</h1>
       </div>
-      <div className="resize h-48 w-full flex flex-row justify-center items-center">
-        <div className="h-40 w-64 flex justify-center items-center">
+      <div className="flex flex-wrap justify-center w-full">
+        <div className="flex items-center justify-center w-full md:w-1/4 lg:w-1/8 p-4">
           <Image src={dni} alt="DNI" className="h-32 w-32" />
         </div>
-        <div className="h-40 w-64 flex justify-center items-center">
+        <div className="flex items-center justify-center w-full md:w-1/4 lg:w-1/8 p-4">
           <Image src={eurofood} alt="eurofood" className="h-32 w-32" />
         </div>
-        <div className="h-40 w-64 flex justify-center items-center">
+        <div className="flex items-center justify-center w-full md:w-1/4 lg:w-1/8 p-4">
           <Image src={eleven} alt="eleven" className="h-32 w-32" />
         </div>
-        <div className="h-40 w-64 flex justify-center items-center">
+        <div className="flex items-center justify-center w-full md:w-1/4 lg:w-1/8 p-4">
           <Image src={jgroup} alt="jgroup" className="h-32 w-32" />
         </div>
-        <div className="h-40 w-64 flex justify-center items-center">
+        <div className="flex items-center justify-center w-full md:w-1/4 lg:w-1/8 p-4">
           <Image src={jfcinter} alt="jfcinter" className="h-32 w-32" />
         </div>
-        <div className="h-40 w-64 flex justify-center items-center">
+        <div className="flex items-center justify-center w-full md:w-1/4 lg:w-1/8 p-4">
           <Image src={osp} alt="osp" className="h-32 w-32" />
         </div>
-        <div className="h-40 w-64 flex justify-center items-center">
+        <div className="flex items-center justify-center w-full md:w-1/4 lg:w-1/8 p-4">
           <Image src={winds} alt="winds" className="h-32 w-32" />
         </div>
-        <div className="h-40 w-64 flex justify-center items-center">
+        <div className="flex items-center justify-center w-full md:w-1/4 lg:w-1/8 p-4">
           <Image src={uniglobal} alt="uniglobal" className="h-32 w-32" />
         </div>
       </div>

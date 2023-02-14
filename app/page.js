@@ -8,7 +8,7 @@ import ValueChain from './components/ValueChain';
 import ProductStart from './components/ProductStart';
 import ValueDetails from './components/ValueDetails';
 import CrabFarming from './components/CrabFarming';
-// import Example from './components/Example'
+import Example from './components/Example'
 /* import localFont from '@next/font/local'
 
 const local = localFont({

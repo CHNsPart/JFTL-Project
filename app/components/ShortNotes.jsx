@@ -27,7 +27,7 @@ const ShortNotes = () => {
             </div>
           </div>
 
-          <p className="text-left w-full">
+          <p className="text-left w-full md:text-md">
             A Joint Venture between <br />
             <span className="font-bold text-brandBlue">Japan & Bangladesh</span>
           </p>
@@ -42,7 +42,7 @@ const ShortNotes = () => {
             </div>
           </div>
 
-          <p className="text-left w-full">
+          <p className="text-left w-full md:text-md">
             An Associate of <br />
             <span className="font-bold text-brandBlue">J Group Japan</span>
           </p>
@@ -57,7 +57,7 @@ const ShortNotes = () => {
             </div>
           </div>
 
-          <p className="text-left w-full">
+          <p className="text-left w-full md:text-md">
             A <span className="font-bold text-brandBlue">100% export</span>
             <br />
             oriented company
@@ -73,7 +73,7 @@ const ShortNotes = () => {
             </div>
           </div>
 
-          <p className="text-left w-full">
+          <p className="text-left lg:text-base w-full md:text-md sm:text-xs">
             <span className="font-bold text-brandBlue">Mud Crab Farming</span>,
             (Frozen Mud Crab / Frozen Soft Shell Crab / Live Mud Crabs / Hard
             Shell Crab) Processing & Export
@@ -89,7 +89,7 @@ const ShortNotes = () => {
             </div>
           </div>
 
-          <p className="text-left w-full">
+          <p className="text-left w-full md:text-md">
             <span className="font-bold text-brandBlue">BRCGS</span> &{' '}
             <span className="font-bold text-brandBlue">HACCP</span> <br />{' '}
             Certified
@@ -102,7 +102,7 @@ const ShortNotes = () => {
             </div>
           </div>
 
-          <p className="text-left w-full">
+          <p className="text-left w-full md:text-md">
             Shayamnagar, Satkhira, <br />
             <span className="font-bold text-brandBlue">Bangladesh</span>
           </p>

@@ -5,10 +5,10 @@ import './landing.css';
 
 const Landing = () => {
   return (
-    <div className="h-screen flex justify-center items-center w-full bg-slate-300 snap snap-y">
+    <div className="h-screen flex flex-col md:flex-row justify-center items-center bg-slate-300 snap snap-y">
       <div className="w-[100%] absolute h-[100%] bg-black opacity-60" />
       <video
-        className="w-[100%] h-[100%] object-cover"
+        className="w-full h-full object-cover"
         src="https://chnspart.com/JFTL/JFTL-VID-PRO.mp4"
         controls={false}
         muted={true}
@@ -16,7 +16,7 @@ const Landing = () => {
         loop={true}
       />
       {/* Main Element */}
-      <section className="absolute flex flex-row justify-around items-center w-full h-full">
+      <section className="absolute flex flex-row justify-center items-center w-full h-full">
         <div className="flex flex-row justify-center items-center h-full w-full">
           <div className="flex flex-col">
             <h1 className="text-7xl leading-tight text-white font-bold">

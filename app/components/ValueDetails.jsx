@@ -4,7 +4,7 @@ import { FaTruck } from "react-icons/fa"
 
 const ValueDetails = () => {
   return (
-    <div className='h-screen my-10 relative flex flex-col justify-center items-center w-full bg-transparent snap snap-y'>
+    <div className='min-h-screen my-10 relative flex flex-col justify-center items-center w-full bg-transparent snap snap-y'>
     <div className='bg-[url("/crabbgf.png")] bg-no-repeat bg-center bg-cover h-full w-[100%] absolute -z-20 opacity-20' />
       <div className='w-full resize-y mt-10 px-36 flex flex-row justify-around items-center'>
         <div className='w-1/2 mr-5 bg-darkBrandBlue px-5 h-fit py-10 rounded-lg text-white'>

@@ -6,7 +6,7 @@ import { AiFillCaretDown } from "react-icons/ai"
 
 const CrabFarming = () => {
   return (
-    <div className="h-screen my-10 relative flex flex-col justify-center items-center w-full bg-transparent snap snap-y">
+    <div className="min-h-screen my-10 relative flex flex-col justify-center items-center w-full bg-transparent snap snap-y">
         <h1 className="text-7xl w-full text-center text-bold font-black text-brandBlue">
             JFTL SOFT SHELL CRAB FARMING
         </h1>
@@ -33,7 +33,7 @@ const CrabFarming = () => {
             <Image height={"auto"} width={"2rem"} src={softShell2} className="p-2"/> */}
         </div>
         <div className='flex bg-brandBlue/20 p-5 rounded-xl flex-row justify-center items-center mt-10'>
-        <div className="w-full flex flex-col justify-center justify-self-start items-center">
+        <div className="w-full md:w-1/2 flex flex-col justify-center justify-self-start items-center">
           <div className="w-[30rem] px-10">
             <div className="h-16 w-16 bg-brandBlue shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 font-bold text-2xl text-white border-brandBlue">
              1

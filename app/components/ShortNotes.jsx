@@ -12,7 +12,7 @@ const ShortNotes = () => {
   return (
     <div className="min-h-screen w-full bg-slate-300 snap snap-y bg-transparent">
       <div className='bg-[url("/crabbgf.png")] bg-no-repeat bg-center bg-cover h-[100%] w-[100%] absolute -z-20 opacity-20' />
-      <h1 className="pt-32 mb-20 text-7xl w-full text-center text-bold font-black text-brandBlue">
+      <h1 className="pt-10 lg:pt-32 mb-20 text-7xl w-full text-center text-bold font-black text-brandBlue">
         Short Notes
       </h1>
       {/* Top */}
@@ -73,7 +73,7 @@ const ShortNotes = () => {
             </div>
           </div>
 
-          <p className="text-left lg:text-base w-full md:text-md sm:text-xs">
+          <p className="text-left text-base lg:text-md w-full md:text-md sm:text-xs">
             <span className="font-bold text-brandBlue">Mud Crab Farming</span>,
             (Frozen Mud Crab / Frozen Soft Shell Crab / Live Mud Crabs / Hard
             Shell Crab) Processing & Export

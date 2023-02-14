@@ -25,11 +25,11 @@ const Example = () => {
         </p>
       </div>
       <div className='relative flex-row w-full lg:w-1/3 justify-center items-center h-full hidden lg:flex'>
-        <div className='h-[30rem] w-full lg:w-[35rem] z-20 bg-brandBlue'>
+        <div className='h-[30rem] lg:h-[20rem] w-full lg:w-[20rem] z-20 bg-brandBlue'>
           <Image height={"auto"} width={"auto"} className='bg-contain object-cover bg-center h-full w-full p-2'
             src={softShell} />
         </div>
-        <div className='h-[30rem] w-full lg:w-[35rem] absolute z-10 mt-5 lg:mt-10 ml-5 lg:ml-10 bg-darkBrandBlue'/>
+        <div className='h-[30rem] lg:h-[20rem] w-full lg:w-[20rem] absolute z-10 mt-5 lg:mt-10 ml-5 lg:ml-10 bg-darkBrandBlue'/>
       </div>
     </div>
     <div className='rounded-full my-20 h-20 w-20 bg-brandBlue flex justify-center items-center'>

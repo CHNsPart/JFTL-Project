@@ -23,7 +23,7 @@ const ValueChain = () => {
         src={value}
         height="auto"
         width="auto"
-        className=" px-24 w-full my-10"
+        className="px-24 w-full my-10"
       />
 
 

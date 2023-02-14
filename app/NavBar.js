@@ -80,7 +80,7 @@ const NavBar = ({modeChange}) => {
         </button>
         <div className="h-10 w-24 ml-5 flex flex-row justify-between items-center">
             <input onClick={setMode} type="checkbox" className="toggle" />
-          <p 
+          <div 
             className="ml-5 text-lg font-semibold w-full flex justify-center items-center text-white"
             >
             <div className="">
@@ -91,7 +91,7 @@ const NavBar = ({modeChange}) => {
                 <FaRegLightbulb className="text-2xl" />
               }
             </div>
-          </p>
+          </div>
         </div>
       </div>
     </div>

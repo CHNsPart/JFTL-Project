@@ -14,7 +14,7 @@ import uniglobal from '../../public/uniglobal.svg';
 
 const CompanyBar = () => {
   return (
-    <div className="flex h-auto w-full flex-col justify-center items-center">
+    <div className="flex h-auto w-full pt-10 flex-col justify-center items-center">
       {/* <Carousel>
             <div>okay</div>
         </Carousel> */}

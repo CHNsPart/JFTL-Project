@@ -5,7 +5,9 @@ import ShortNotes from './components/ShortNotes';
 import Footer from './components/Footer';
 import CompanyBar from './components/CompanyBar';
 import ValueChain from './components/ValueChain';
-import ImageGallery from './components/ImageGallery';
+import ProductStart from './components/ProductStart';
+import ValueDetails from './components/ValueDetails';
+import CrabFarming from './components/CrabFarming';
 // import Example from './components/Example'
 /* import localFont from '@next/font/local'
 
@@ -23,10 +25,12 @@ export default function Home() {
     <main className="h-[100%] w-[100%]">
       <Landing />
       <About />
+      <ProductStart />
       <ValueChain />
+      <ValueDetails />
+      <CrabFarming />
       <CompanyBar />
       <ShortNotes />
-      <ImageGallery />
       <Footer />
       {/* <Example/> */}
     </main>

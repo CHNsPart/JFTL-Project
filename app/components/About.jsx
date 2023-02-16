@@ -6,7 +6,7 @@ import { GiBurningForest } from 'react-icons/gi';
 const About = () => {
   return (
     <div className="h-screen relative flex flex-col justify-center items-center w-full bg-transparent snap snap-y md:mb-10">
-      <h1 className="pt-32 text-7xl w-full text-center text-bold font-black text-brandBlue">
+      <h1 className="pt-44 text-7xl w-full text-center text-bold font-black text-brandBlue">
         About Us
       </h1>
       <div className="min-h-full flex justify-center items-center w-full snap snap-y">

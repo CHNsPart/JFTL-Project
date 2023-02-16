@@ -25,7 +25,7 @@ const Footer = () => {
         <form
           action="mailto:chayan.adiq@gmail.com"
           method="post"
-          enctype="text/plain"
+          encType="text/plain"
           className="w-full justify-center text-center pb-10"
         >
           <input

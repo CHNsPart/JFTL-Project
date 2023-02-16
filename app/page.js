@@ -8,6 +8,7 @@ import ValueChain from './components/ValueChain';
 import ProductStart from './components/ProductStart';
 import ValueDetails from './components/ValueDetails';
 import CrabFarming from './components/CrabFarming';
+import CrabProcessing from './components/CrabProcessing';
 import Example from './components/Example'
 /* import localFont from '@next/font/local'
 
@@ -29,6 +30,7 @@ export default function Home() {
       <ValueChain />
       <ValueDetails />
       <CrabFarming />
+      <CrabProcessing />
       <CompanyBar />
       <ShortNotes />
       <Footer />

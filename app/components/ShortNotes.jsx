@@ -20,7 +20,7 @@ const ShortNotes = () => {
         <div className="flex flex-row justify-center items-center w-full snap snap-y p-4">
           <div className="w-[390px] mx-4 h-[200px] rounded-xl px-10 bg-white flex flex-col justify-center items-center bg-clip-padding backdrop-filter border-2 border-gray-200 hover:border-brandBlue hover:border-2 transition-all duration-500 ease-in-out backdrop-blur-sm bg-opacity-20 hover:shadow-2xl shadow-lg">
             <div className="text-left w-full">
-              <div className="h-16 w-16 bg-white shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
+              <div className="h-16 w-16 bg-trasnparent shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
                 <FaFeatherAlt
                   size={30}
                   className="animate-wiggle text-brandBlue"
@@ -37,7 +37,7 @@ const ShortNotes = () => {
           </div>
           <div className="w-[390px] mx-4 h-[200px] rounded-xl px-10 bg-white flex flex-col justify-center items-center bg-clip-padding backdrop-filter border-2 border-gray-200 hover:border-brandBlue hover:border-2 transition-all duration-500 ease-in-out backdrop-blur-sm bg-opacity-20 hover:shadow-2xl shadow-lg">
             <div className="text-left w-full">
-              <div className="h-16 w-16 bg-white shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
+              <div className="h-16 w-16 bg-trasnparent shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
                 <MdOutlineBusinessCenter
                   size={30}
                   className="animate-wiggle text-brandBlue"
@@ -52,7 +52,7 @@ const ShortNotes = () => {
           </div>
           <div className="w-[390px] mx-4 h-[200px] rounded-xl px-10 bg-white flex flex-col justify-center items-center bg-clip-padding backdrop-filter border-2 border-gray-200 hover:border-brandBlue hover:border-2 transition-all duration-500 ease-in-out backdrop-blur-sm bg-opacity-20 hover:shadow-2xl shadow-lg">
             <div className="text-left w-full">
-              <div className="h-16 w-16 bg-white shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
+              <div className="h-16 w-16 bg-trasnparent shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
                 <MdOutlineImportExport
                   size={30}
                   className="animate-wiggle text-brandBlue"
@@ -71,7 +71,7 @@ const ShortNotes = () => {
         <div className="flex flex-row justify-center items-center w-full snap snap-y p-4">
           <div className="w-[390px] mx-4 h-[200px] rounded-xl px-10 bg-white flex flex-col justify-center items-center bg-clip-padding backdrop-filter border-2 border-gray-200 hover:border-brandBlue hover:border-2 transition-all duration-500 ease-in-out backdrop-blur-sm bg-opacity-20 hover:shadow-2xl shadow-lg mb-10">
             <div className="text-left w-full">
-              <div className="h-16 w-16 bg-white shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
+              <div className="h-16 w-16 bg-trasnparent shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
                 <GiSadCrab
                   size={30}
                   className="animate-wiggle text-brandBlue"
@@ -87,7 +87,7 @@ const ShortNotes = () => {
           </div>
           <div className="w-[390px] mx-4 h-[200px] rounded-xl px-10 bg-white flex flex-col justify-center items-center bg-clip-padding backdrop-filter border-2 border-gray-200 hover:border-brandBlue hover:border-2 transition-all duration-500 ease-in-out backdrop-blur-sm bg-opacity-20 hover:shadow-2xl shadow-lg mb-10">
             <div className="text-left w-full">
-              <div className="h-16 w-16 bg-white shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
+              <div className="h-16 w-16 bg-trasnparent shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
                 <AiFillSafetyCertificate
                   size={30}
                   className="animate-wiggle text-brandBlue"
@@ -103,7 +103,7 @@ const ShortNotes = () => {
           </div>
           <div className="w-[390px] mx-4 h-[200px] rounded-xl px-10 bg-white flex flex-col justify-center items-center bg-clip-padding backdrop-filter border-2 border-gray-200 hover:border-brandBlue hover:border-2 transition-all duration-500 ease-in-out backdrop-blur-sm bg-opacity-20 hover:shadow-2xl shadow-lg mb-10">
             <div className="text-left w-full">
-              <div className="h-16 w-16 bg-white shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
+              <div className="h-16 w-16 bg-trasnparent shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
                 <BiWorld size={30} className="animate-wiggle text-brandBlue" />
               </div>
             </div>

@@ -22,16 +22,14 @@ const Example = () => {
             className="h-24 lg:rotate-90 lg:mt-[2rem] opacity-10 lg:ml-[15rem] w-auto absolute"
             src={b1}
           />
-          <h1 className="text-5xl md:text- text-brandBlue font-bold">
+          <h1 className="text-7xl md:text- text-brandBlue font-bold">
             Frozen Mud Crab
           </h1>
-          <p className="flex text-lg font-bold mt-5 justify-center items-center w-full text-red-500/90">
+          <p className="flex text-2xl font-bold mt-5 justify-center items-center w-full text-red-500/90">
             Frozen Soft Shell Crab
           </p>
-          <p className="w-full lg:w-1/2 text-center mt-5 tracking-wider">
-            There are 5 major players in the total value chain of Frozen Soft
-            Shell Crab farming and JFTL plays three major roles among them.
-            These are:
+          <p className="w-full lg:w-1/2 text-lg text-center mt-5 tracking-wider">
+            There are 5 major players in the total value chain of Frozen Soft Shell Crab farming and JFTL plays three major roles among them. <br /><span className='text-darkBrandBlue font-bold'>These are...</span>
           </p>
         </div>
         <div className="relative flex-row w-full lg:w-1/3 justify-center items-center h-full hidden lg:flex">

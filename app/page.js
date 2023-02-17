@@ -9,7 +9,7 @@ import ProductStart from './components/ProductStart';
 import ValueDetails from './components/ValueDetails';
 import CrabFarming from './components/CrabFarming';
 import CrabProcessing from './components/CrabProcessing';
-import Example from './components/Example'
+import Example from './components/Example';
 /* import localFont from '@next/font/local'
 
 const local = localFont({
@@ -23,17 +23,28 @@ const local = localFont({
 
 export default function Home() {
   return (
-    <main className="h-[100%] w-[100%]">
-      <Landing />
+    <main className="h-screen w-screen">
+      <div className="h-screen w-screen">
+        <Landing />
+      </div>
       <About />
+
       <ProductStart />
+
       <ValueChain />
+
       <ValueDetails />
+
       <CrabFarming />
+
       <CrabProcessing />
+
       <CompanyBar />
+
       <ShortNotes />
+
       <Footer />
+
       {/* <Example/> */}
     </main>
   );

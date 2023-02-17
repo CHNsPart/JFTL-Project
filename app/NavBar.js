@@ -1,9 +1,9 @@
 //import styles from "../utils/index"
 'use client';
 
-import { useState } from "react";
-import { FaRegLightbulb } from "react-icons/fa"
-import { FaLightbulb } from "react-icons/fa"
+import { useState } from 'react';
+import { FaRegLightbulb } from 'react-icons/fa';
+import { FaLightbulb } from 'react-icons/fa';
 
 const isBrowser = () => typeof window !== 'undefined';
 
@@ -28,21 +28,21 @@ function scrollToFooter() {
   window.scrollTo({ top: 6000, behavior: 'smooth' });
 }
 
-
-const NavBar = ({modeChange}) => {
-  let [radioMode, setRadioMode] = useState("light")
+const NavBar = ({ modeChange }) => {
+  let [radioMode, setRadioMode] = useState('light');
   const setMode = () => {
-    if(radioMode === "light"){
-      setRadioMode("night")
-      modeChange("night")
-    }else{
-      setRadioMode("light")
-      modeChange("light")
+    if (radioMode === 'light') {
+      setRadioMode('night');
+      modeChange('night');
+    } else {
+      setRadioMode('light');
+      modeChange('light');
     }
-  }
+  };
   return (
     <div
-      className={`bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-50 fixed py-10 flex justify-between items-center px-[2rem] bg-black text-white z-50 h-10 w-full`} mode={radioMode}
+      className={`bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-50 fixed py-10 flex justify-between items-center px-[2rem] bg-black text-white z-50 h-10 w-full`}
+      mode={radioMode}
     >
       <h2 className="text-white text-2xl">JFTL</h2>
       <div className="flex justify-center items-center">
@@ -79,17 +79,14 @@ const NavBar = ({modeChange}) => {
           Contact Us
         </button>
         <div className="h-10 w-24 ml-5 flex flex-row justify-between items-center">
-            <input onClick={setMode} type="checkbox" className="toggle" />
-          <div 
-            className="ml-5 text-lg font-semibold w-full flex justify-center items-center text-white"
-            >
+          <input onClick={setMode} type="checkbox" className="toggle" />
+          <div className="ml-5 text-lg font-semibold w-full flex justify-center items-center text-white">
             <div className="">
-              {
-                radioMode === "light" ? 
+              {radioMode === 'light' ? (
                 <FaLightbulb className="text-2xl" />
-                : 
+              ) : (
                 <FaRegLightbulb className="text-2xl" />
-              }
+              )}
             </div>
           </div>
         </div>

@@ -1,16 +1,16 @@
 import React from 'react';
 import Image from 'next/image';
 import value from '../../public/valueChain.png';
-import { GiCatch } from "react-icons/gi"
+import { GiCatch } from 'react-icons/gi';
 
 const ValueChain = () => {
   return (
     <div
-      id="valueChain"
-      className="flex min-h-max w-full flex-col justify-center items-center"
+      id=""
+      className="flex h-[100%] mt-20 w-full flex-col justify-center items-center bg-transparent"
     >
-      <div className='bg-[url("/crabbgf.png")] bg-no-repeat bg-center bg-cover h-screen w-full absolute -z-20 opacity-20' />
-      <div className="h-auto w-full my-14 flex justify-center items-center">
+      <div className='bg-[url("/crabbgf.png")] bg-no-repeat bg-center bg-cover h-[100%] w-full absolute -z-20 opacity-20' />
+      <div className="h-auto w-full flex justify-center items-center">
         <h1 className="text-5xl md:text- text-brandBlue font-bold">
           THE VALUE CHAIN
           <span className="flex justify-center items-center w-full text-red-500/90">
@@ -26,8 +26,7 @@ const ValueChain = () => {
         className="px-24 w-full my-10"
       />
 
-
- {/*      <div className='w-full mt-10 px-36 flex flex-row justify-around items-center'>
+      {/*      <div className='w-full mt-10 px-36 flex flex-row justify-around items-center'>
         <div className='w-1/2 mr-5 bg-darkBrandBlue px-5 h-fit py-10 rounded-lg text-white'>
           <h1 className='text-5xl font-bold mb-5'>
             <GiCatch className='mb-2' size={30} /> Crab Catcher

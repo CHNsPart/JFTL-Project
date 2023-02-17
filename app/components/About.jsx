@@ -5,14 +5,14 @@ import { GiBurningForest } from 'react-icons/gi';
 
 const About = () => {
   return (
-    <div className="h-screen relative flex flex-col justify-center items-center w-full bg-transparent snap snap-y md:mb-10">
-      <h1 className="pt-44 text-7xl w-full text-center text-bold font-black text-brandBlue">
+    <div className="h-screen relative flex flex-col justify-center items-center w-full bg-transparent snap snap-y">
+      <h1 className="text-7xl w-full text-center text-bold font-black text-brandBlue pt-20">
         About Us
       </h1>
-      <div className="min-h-full flex justify-center items-center w-full snap snap-y">
-        <div className="w-full flex flex-col justify-center justify-self-start items-center md:my-20">
+      <div className="h-screen flex justify-center items-center w-full snap snap-y">
+        <div className="w-full flex flex-col justify-center justify-self-start items-center lg:my-0 md:my-20">
           <div className="w-[30rem] px-10">
-            <div className="h-16 w-16 bg-white shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
+            <div className="h-16 w-16 bg-transparent shadow-xl flex justify-center items-center mb-5 rounded-full text-left border-2 border-brandBlue">
               <GiBurningForest size={30} className="text-brandBlue" />
             </div>
           </div>
@@ -30,7 +30,12 @@ const About = () => {
           </div>
         </div>
         <div className="w-full hidden lg:flex flex-col justify-center justify-self-start items-center">
-          <Image src={map} className='max-h-[600px] md:max-h-[500px] max-w-[300px]' height={"auto"} width={"auto"} />
+          <Image
+            src={map}
+            className="max-h-[500px] lg:h-auto md:max-h-[500px] max-w-[300px]"
+            height={'auto'}
+            width={'auto'}
+          />
         </div>
       </div>
     </div>

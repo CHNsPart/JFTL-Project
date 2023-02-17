@@ -16,7 +16,9 @@ const CompanyBar = () => {
   return (
     <div className="flex flex-col items-center justify-center pt-10 w-full">
       <div className="mb-10 w-full flex justify-center items-center">
-        <h1 className="text-4xl md:text-7xl text-brandBlue font-bold">Our Partners</h1>
+        <h1 className="text-4xl md:text-7xl text-brandBlue font-bold">
+          Our Partners
+        </h1>
       </div>
       <div className="flex flex-wrap justify-center w-full">
         <div className="flex items-center justify-center w-full md:w-1/4 lg:w-1/8 p-4">

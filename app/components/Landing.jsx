@@ -35,7 +35,6 @@ const Landing = () => {
             <button
               className={`bg-gradient-to-r from-lightBrandBlue to-darkBrandBlue w-64 tracking-wider h-16 mt-5 rounded-full text-2xl font-bold text-white font-sans`}
             >
-              {' '}
               Contact Us{' '}
             </button>
           </div>

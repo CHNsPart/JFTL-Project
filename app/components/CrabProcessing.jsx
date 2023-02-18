@@ -56,7 +56,7 @@ const CrabFarming = () => {
         <div className="w-full md:w-1/2 flex flex-col justify-center justify-self-start items-center">
           <div className="w-[30rem] px-10">
             <div className="h-20 w-20 shadow-xl flex justify-center items-center mb-5 rounded-full text-left font-bold text-2xl text-white bg-clip-padding">
-              <Image className="object-cover brightness-150 px-2 w-full" src={becgs} />
+              <Image className="object-cover px-2 w-full" src={becgs} />
             </div>
           </div>
           <p className="text-left text-lg px-10 w-[30rem]">

@@ -53,7 +53,9 @@ p {
   background-image: url('.././public/crabbgf.png');
   background-repeat: no-repeat;
   background-size: cover;
+  height: auto;
   opacity: 20%;
+  z-index: 100;
   background-position: center;
   background-attachment: scroll;
   /* background-color: #000000; */

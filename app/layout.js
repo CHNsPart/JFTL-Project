@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
         {/*  <button onClick={modeChange}>Dark Mode</button> */}
         <div
           id="bg-pattern"
-          className="w-full h-screen top-[100%] absolute -z-20 bg-white opacity-60"
+          className="w-full h-screen top-[100%] absolute -z-50 bg-white opacity-60"
         />
         <NavBar modeChange={modeChange} />
         {children}

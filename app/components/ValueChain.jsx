@@ -7,7 +7,7 @@ const ValueChain = () => {
   return (
     <div
       id=""
-      className="flex h-[100%] mt-20 w-full flex-col justify-center items-center bg-transparent"
+      className="flex h-[100vh] w-full flex-col justify-center items-center bg-transparent"
     >
       <div className='bg-[url("/crabbgf.png")] bg-no-repeat bg-center bg-cover h-[100%] w-full absolute -z-20 opacity-20' />
       <div className="h-auto w-full flex justify-center items-center">

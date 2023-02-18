@@ -27,10 +27,8 @@ export default function Home() {
       <div className="h-screen min-w-fit">
         <Landing />
       </div>
-
-      <About />
-
-      <ProductStart />
+        <About />
+     {/*  <ProductStart /> */}
 
       <ValueChain />
 

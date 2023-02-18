@@ -28,13 +28,7 @@ const CrabFarming = () => {
         JFTL SOFT SHELL CRAB FARMING
       </h1>
       
-      <div className="w-fit h-fit flex flex-row justify-center my-20">
-        {/* <div className="grid grid-cols-1 w-full gap-2 lg:grid-cols-2 p-2 sm:grid-cols-2">
-          <Image className="border-none object-cover w-full border" src={softShell} />
-          <Image className="border-none object-cover w-full border" src={softShell} />
-          <Image className="border-none object-cover w-full border" src={softShell} />
-          <Image className="border-none object-cover w-full border" src={softShell} />
-        </div> */}
+      <div className="w-full h-auto flex flex-row justify-center my-20 lg:px-10">
         <div className="grid grid-cols-4 gap-2 hover:gap-4 transition-all duration-300 ease-in-out">
           <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover rounded-l-full w-full border transition-all duration-300 ease-in-out" src={softShell} />
           <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover rounded-t-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={softShell} />

@@ -22,7 +22,7 @@ const Example = () => {
             className="h-24 lg:rotate-90 lg:mt-[2rem] opacity-10 lg:ml-[15rem] w-auto absolute"
             src={b1}
           />
-          <h1 className="text-7xl md:text- text-brandBlue font-bold">
+          <h1 className="text-7xl lg:text-5xl md:text- text-brandBlue font-bold">
             Frozen Mud Crab
           </h1>
           <p className="flex text-2xl font-bold mt-5 justify-center items-center w-full text-red-500/90">

@@ -11,7 +11,6 @@ import { FaTruck } from 'react-icons/fa';
 const CrabFarming = () => {
   return (
   <div className="min-h-screen my-16 relative flex flex-col justify-center items-center w-full bg-transparent snap snap-y">
-    <>
     <div className='w-full flex flex-row justify-center items-center opacity-20 gap-10'>
      <GiBuyCard size={50}/>
      <GiCrab size={50}/>
@@ -33,25 +32,8 @@ const CrabFarming = () => {
       <h1 className="text-7xl w-full text-center text-bold font-black text-brandBlue">
         JFTL Soft Shell Crab Processing
       </h1>
-{/*       <div className="w-2/3 flex flex-row justify-between items-center my-10">
-        <div className="w-full flex flex-col justify-center my-10 mx-5 bg-brandBlue/40">
-          <div className="grid grid-rows-2 gap-2 lg:grid-cols-2 p-2 sm:grid-cols-2">
-            <Image className="border-none object-cover w-full border" src={softShell} />
-            <Image className="border-none object-cover w-full border" src={softShell} />
-            <Image className="border-none object-cover w-full border" src={softShell} />
-            <Image className="border-none object-cover w-full border" src={softShell} />
-          </div>
-        </div>
-        <div className="w-full flex flex-col justify-center my-10 mx-5 bg-brandBlue/40">
-          <div className="grid grid-rows-2 gap-2 lg:grid-cols-2 p-2 sm:grid-cols-2">
-            <Image className="border-none object-cover w-full border" src={softShell} />
-            <Image className="border-none object-cover w-full border" src={softShell} />
-            <Image className="border-none object-cover w-full border" src={softShell} />
-            <Image className="border-none object-cover w-full border" src={softShell} />
-          </div>
-        </div>
-      </div> */}
-    <div className='grid grid-cols-1 w-2/3 gap-2 mx-5 my-20 hover:gap-4 transition-all duration-300 ease-in-out'>
+
+    <div className='grid grid-cols-1 w-1/2 gap-2 my-20 hover:gap-4 transition-all duration-300 ease-in-out'>
       <div className="grid grid-cols-4 gap-2 hover:gap-4 transition-all duration-300 ease-in-out">
         <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover rounded-l-full w-full border transition-all duration-300 ease-in-out" src={softShell} />
         <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover rounded-t-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={softShell} />
@@ -70,7 +52,7 @@ const CrabFarming = () => {
         <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover  w-full border transition-all duration-300 ease-in-out rounded-r-full" src={softShell} />
       </div>
     </div>
-      <div className="flex bg-brandBlue/20 hover:shadow-2xl hover:shadow-lightBrandBlue/80 p-5 rounded-xl flex-row justify-center items-center">
+      <div className="flex bg-brandBlue/20 p-5 rounded-xl flex-row justify-center items-center">
         <div className="w-full md:w-1/2 flex flex-col justify-center justify-self-start items-center">
           <div className="w-[30rem] px-10">
             <div className="h-20 w-20 shadow-xl flex justify-center items-center mb-5 rounded-full text-left font-bold text-2xl text-white bg-clip-padding">
@@ -96,7 +78,6 @@ const CrabFarming = () => {
         </div>
       </div>
       </div>
-      </>
    </div>
   );
 };

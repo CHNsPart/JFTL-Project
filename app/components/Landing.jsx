@@ -5,8 +5,10 @@ import './landing.css';
 
 const Landing = () => {
   return (
-    <div className="h-screen flex flex-col md:flex-row justify-center items-center bg-slate-300 snap snap-y">
-      <div className="w-[100%] absolute h-[100%] bg-black opacity-60" />
+    <div className="h-screen w-full flex flex-col md:flex-row justify-center items-center">
+      <div 
+        className="w-full absolute h-screen bg-black opacity-60"
+      />
       <video
         className="w-full h-full object-cover"
         src="https://chnspart.com/JFTL/JFTL-VID-PRO.mp4"
@@ -39,15 +41,6 @@ const Landing = () => {
             </button>
           </div>
         </div>
-        {/*           <div className='flex flex-col justify-start justify-self-start items-center w-full'>
-            <h1 className='text-7xl text-white font-bold'>
-              JAPAN FAST<br/>TRADE LTD
-            </h1>
-            <h2 className='flex justify-center pr-16 items-center text-lg text-white pt-3'>
-            Presenting Bangladeshi seafood delicacy from <br/>the Sundarban (world’s largest mangrove forest)<br/> to the rest of the World
-            </h2>
-            <button className={`bg-gradient-to-r from-cyan-500 to-blue-500 w-32 tracking-wider h-10 rounded-full`} > Contact Us </button>
-          </div> */}
 
         <div className="text-right flex flex-row justify-center items-center h-full w-full">
           <div id="circle-orbit-container">

@@ -23,9 +23,8 @@ const local = localFont({
 
 export default function Home() {
   return (
-    <main className="h-screen w-screen">
-      
-      <div className="h-screen w-screen">
+    <main className="h-screen w-full">
+      <div className="h-screen min-w-fit">
         <Landing />
       </div>
 
@@ -41,10 +40,10 @@ export default function Home() {
 
       <CrabProcessing />
 
-      <div className="h-auto my-10 w-screen">
-        <ShortNotes />
+      <ShortNotes />
+      <div className="h-auto mt-10 w-full">
+        <CompanyBar />
       </div>
-      <CompanyBar />
 
 
       <Footer />

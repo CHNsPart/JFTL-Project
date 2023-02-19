@@ -10,6 +10,12 @@ import ValueDetails from './components/ValueDetails';
 import CrabFarming from './components/CrabFarming';
 import CrabProcessing from './components/CrabProcessing';
 import Example from './components/Example';
+import Vision from './components/Vision';
+import Mission from './components/Mission';
+import Location from './components/Location';
+import Certification from './components/Certification';
+import LabFacilities from './components/LabFacilities';
+import SupportMachine from './components/SupportMachine';
 /* import localFont from '@next/font/local'
 
 const local = localFont({
@@ -29,6 +35,19 @@ export default function Home() {
       </div>
         <About />
      {/*  <ProductStart /> */}
+      <Vision/>
+
+      <Mission/>
+
+      <Certification/>
+
+      <Location/>
+
+      <ShortNotes />
+
+      <div className="h-auto mt-10 w-full">
+        <CompanyBar />
+      </div>
 
       <ValueChain />
 
@@ -38,10 +57,9 @@ export default function Home() {
 
       <CrabProcessing />
 
-      <ShortNotes />
-      <div className="h-auto mt-10 w-full">
-        <CompanyBar />
-      </div>
+      <LabFacilities/>
+      
+      <SupportMachine/>
 
 
       <Footer />

@@ -10,7 +10,7 @@ import { BiWorld } from 'react-icons/bi';
 
 const ShortNotes = () => {
   return (
-    <div className="min-h-screen mt-44 w-full bg-slate-300 snap snap-y bg-transparent">
+    <div className="min-h-screen w-full bg-slate-300 snap snap-y bg-transparent">
       <div className='bg-[url("/crabbgf.png")] bg-no-repeat bg-center bg-cover min-h-screen w-[100%] absolute -z-20 opacity-20' />
       <div className="h-screen flex flex-col justify-center items-center">
         <h1 className="text-7xl py-10 w-full text-center text-bold font-black text-brandBlue">

@@ -20,8 +20,8 @@ const Landing = () => {
       {/* Main Element */}
       <section className="absolute flex flex-row justify-center items-center w-full h-full">
         <div className="flex flex-row justify-center items-center h-full w-full">
-          <div className="flex flex-col">
-            <h1 className="text-7xl leading-tight text-white font-bold">
+          <div className="flex flex-col justify-center items-center">
+            <h1 className="text-4xl leading-tight text-white font-bold text-center">
               <span className="text-red-500/90 bg-white px-2 rounded-lg">
                 JAPAN
               </span>{' '}
@@ -29,32 +29,33 @@ const Landing = () => {
               <br />
               TRADE LTD
             </h1>
-            <p className="flex justify-center pr-24 items-center text-lg text-white pt-3">
+            <p className="flex text-center justify-center items-center text-md text-white p-1 pb-4">
               Presenting Bangladeshi seafood delicacy from <br />
               the Sundarban (world’s largest mangrove forest)
               <br /> to the rest of the World
             </p>
-            <button
+{/*             <button
               className={`bg-gradient-to-r from-lightBrandBlue to-darkBrandBlue w-64 tracking-wider h-16 mt-5 rounded-full text-2xl font-bold text-white font-sans`}
             >
               Contact Us{' '}
-            </button>
+            </button> */}
+            <div id="circle-orbit-container">
+              <div id="middle-orbit">
+                <div class="middle-orbit-cirlces"></div>
+              </div>
+
+              <div id="outer-orbit">
+                <div class="outer-orbit-cirlces"></div>
+                <div class="outer-orbit-cirlces-2"></div>
+                <div class="outer-orbit-cirlces-3"></div>
+                <div class="outer-orbit-cirlces-4"></div>
+            </div>
+          </div>
           </div>
         </div>
 
         <div className="text-right flex flex-row justify-center items-center h-full w-full">
-          <div id="circle-orbit-container">
-            <div id="middle-orbit">
-              <div class="middle-orbit-cirlces"></div>
-            </div>
 
-            <div id="outer-orbit">
-              <div class="outer-orbit-cirlces"></div>
-              <div class="outer-orbit-cirlces-2"></div>
-              <div class="outer-orbit-cirlces-3"></div>
-              <div class="outer-orbit-cirlces-4"></div>
-            </div>
-          </div>
         </div>
       </section>
     </div>

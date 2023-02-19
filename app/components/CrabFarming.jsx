@@ -1,7 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import softShell from '../../public/softshell.png';
-import softShell2 from '../../public/softshell2.png';
+import ss2 from '../../public/ss2.png';
+import ss3 from '../../public/ss3.png';
+import ss4 from '../../public/ss4.png';
+
 import { GiCatch, GiCrab, GiFarmer } from 'react-icons/gi';
 
 const CrabFarming = () => {
@@ -31,9 +34,9 @@ const CrabFarming = () => {
       <div className="w-full h-auto flex flex-row justify-center my-20 lg:px-10">
         <div className="grid grid-cols-4 gap-2 hover:gap-4 transition-all duration-300 ease-in-out">
           <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover rounded-l-full w-full border transition-all duration-300 ease-in-out" src={softShell} />
-          <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover rounded-t-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={softShell} />
-          <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover rounded-b-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={softShell} />
-          <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover  w-full border transition-all duration-300 ease-in-out rounded-r-full" src={softShell} />
+          <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover rounded-t-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={ss2} />
+          <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover rounded-b-full h-full rounded-l-full w-full border transition-all duration-300 ease-in-out" src={ss3} />
+          <Image className="border-none hover:shadow-2xl hover:shadow-sky-500 object-cover h-full w-full border transition-all duration-300 ease-in-out rounded-r-full" src={ss4} />
         </div>
       </div>
 

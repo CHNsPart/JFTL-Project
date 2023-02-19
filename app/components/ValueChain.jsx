@@ -1,13 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
-import value from '../../public/valueChain.png';
+import valueComp from '../../public/valueComp.png';
 import { GiCatch } from 'react-icons/gi';
 
 const ValueChain = () => {
   return (
     <div
-      id=""
-      className="flex h-[100vh] w-full flex-col justify-center items-center bg-transparent"
+      className="flex h-screen w-full flex-col justify-center items-center"
     >
       <div className='bg-[url("/crabbgf.png")] bg-no-repeat bg-center bg-cover h-[100%] w-full absolute -z-20 opacity-20' />
       <div className="h-auto w-full flex justify-center items-center">
@@ -20,7 +19,7 @@ const ValueChain = () => {
         </h1>
       </div>
       <Image
-        src={value}
+        src={valueComp}
         height="auto"
         width="auto"
         className="px-24 w-full my-10"

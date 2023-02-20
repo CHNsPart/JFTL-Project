@@ -4,6 +4,8 @@
 import { useState } from 'react';
 import { FaRegLightbulb } from 'react-icons/fa';
 import { FaLightbulb } from 'react-icons/fa';
+import logo from "../public/JFTLLogo.jpg"
+import Image from 'next/image';
 
 const isBrowser = () => typeof window !== 'undefined';
 
@@ -44,7 +46,9 @@ const NavBar = ({ modeChange }) => {
       className={`bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-50 fixed py-10 flex justify-between items-center px-[2rem] bg-black text-white z-50 h-10 w-full`}
       mode={radioMode}
     >
-      <h2 className="text-white text-2xl">JFTL</h2>
+      <h2 className="text-white text-2xl">
+        <Image src={logo} height={80} width={80} />
+      </h2>
       <div className="flex justify-center items-center">
         <ul className="mr-5 text-lg uppercase">
           <li

@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-import footer from '../../public/footer.png';
+import footer from '../../public/FooterNew.png';
 import linkedin from '../../public/linkedin.png';
 import insta from '../../public/insta.png';
 import whatsapp from '../../public/whatsapp.png';

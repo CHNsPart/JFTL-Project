@@ -1,11 +1,14 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import map from "../../public/JFTL-Map.png"
-import aer from "../../public/aerial.png"
+import aer from "../../public/drone.JPG"
+//import drone from "../../public/drone.webm"
 
 const Location = () => {
   return (
-    <div className='h-screen w-full py-10 flex flex-row justify-center items-center'>
+    <>
+    <div className='h-fit w-full py-10 flex flex-row justify-center items-center'>
         <div className='flex justify-center items-center flex-col w-full bg-transparent text-center'>
             <h1 className='text-5xl text-bold font-black text-brandBlue mb-5'>
                 Project Location
@@ -24,6 +27,18 @@ const Location = () => {
                  <Image src={map} className='max-h-[500px] object-contain rounded-3xl' />
             </div>
     </div>
+        <div className='h-fit w-full px-10 flex flex-row justify-center items-center'>
+        <video
+            autoPlay
+            loop
+            muted
+            className='rounded-xl'
+        >
+            <source src="https://chnspart.com/JFTL/JFTLdrone.webm" type='video/webm' />
+            Your browser does not support the video tag.
+      </video>
+        </div>
+    </>
   )
 }
 

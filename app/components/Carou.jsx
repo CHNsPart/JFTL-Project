@@ -9,7 +9,7 @@ import mlab5 from '../../public/mlab5.png';
 
 const Carou = () => {
   return (
-    <div className="carousel w-1/2 my-10 h-1/2">
+    <div className="carousel w-1/2 mt-10 h-full">
         <div id="slide1" className="carousel-item relative w-full">
             <Image src={mlab1} className="w-full object-contain" />
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

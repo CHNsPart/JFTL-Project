@@ -16,6 +16,10 @@ import Location from './components/Location';
 import Certification from './components/Certification';
 import LabFacilities from './components/LabFacilities';
 import SupportMachine from './components/SupportMachine';
+import Products from './components/Products';
+import LiveCrab from './components/LiveCrab';
+import Csr from './components/Csr';
+import Documents from './components/Documents';
 /* import localFont from '@next/font/local'
 
 const local = localFont({
@@ -61,6 +65,13 @@ export default function Home() {
       
       <SupportMachine/>
 
+      <Products/>
+
+      <LiveCrab/>
+
+      <Csr/>
+
+      <Documents/>
 
       <Footer />
 

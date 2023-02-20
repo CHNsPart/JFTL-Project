@@ -41,14 +41,14 @@ const Landing = () => {
             </button> */}
             <div id="circle-orbit-container">
               <div id="middle-orbit">
-                <div class="middle-orbit-cirlces"></div>
+                <div className="middle-orbit-cirlces"></div>
               </div>
 
               <div id="outer-orbit">
-                <div class="outer-orbit-cirlces"></div>
-                <div class="outer-orbit-cirlces-2"></div>
-                <div class="outer-orbit-cirlces-3"></div>
-                <div class="outer-orbit-cirlces-4"></div>
+                <div className="outer-orbit-cirlces"></div>
+                <div className="outer-orbit-cirlces-2"></div>
+                <div className="outer-orbit-cirlces-3"></div>
+                <div className="outer-orbit-cirlces-4"></div>
             </div>
           </div>
           </div>

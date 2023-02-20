@@ -6,7 +6,7 @@ import { GiCatch } from 'react-icons/gi';
 const ValueChain = () => {
   return (
     <div
-      className="flex h-screen w-full flex-col justify-center items-center"
+      className="flex h-fit w-full flex-col justify-center items-center"
     >
       <div className='bg-[url("/crabbgf.png")] bg-no-repeat bg-center bg-cover h-[100%] w-full absolute -z-20 opacity-20' />
       <div className="h-auto w-full flex justify-center items-center">

@@ -15,19 +15,19 @@ function scrollToTop() {
 }
 function scrollToAbout() {
   if (!isBrowser()) return;
-  window.scrollTo({ top: 1000, behavior: 'smooth' });
+  window.scrollTo({ top: 800, behavior: 'smooth' });
 }
-function scrollToRole() {
+function scrollToLoc() {
   if (!isBrowser()) return;
-  window.scrollTo({ top: 2000, behavior: 'smooth' });
+  window.scrollTo({ top: 2500, behavior: 'smooth' });
 }
 function scrollToNotes() {
   if (!isBrowser()) return;
-  window.scrollTo({ top: 3400, behavior: 'smooth' });
+  window.scrollTo({ top: 4600, behavior: 'smooth' });
 }
 function scrollToFooter() {
   if (!isBrowser()) return;
-  window.scrollTo({ top: 6000, behavior: 'smooth' });
+  window.scrollTo({ top: "40000", behavior: 'smooth' });
 }
 
 const NavBar = ({ modeChange }) => {
@@ -53,25 +53,25 @@ const NavBar = ({ modeChange }) => {
         <ul className="mr-5 text-lg uppercase">
           <li
             onClick={scrollToTop}
-            className="inline-block mx-4 cursor-pointer hover:scale-110 hover:text-lightBrandBlue transition-all ease-in-out duration-200"
+            className="inline-block md:text-md mx-4 cursor-pointer hover:scale-110 hover:text-lightBrandBlue transition-all ease-in-out duration-200"
           >
             Home
           </li>
           <li
             onClick={scrollToAbout}
-            className="inline-block mx-4 cursor-pointer hover:scale-110 hover:text-lightBrandBlue transition-all ease-in-out duration-200"
+            className="inline-block md:text-md mx-4 cursor-pointer hover:scale-110 hover:text-lightBrandBlue transition-all ease-in-out duration-200"
           >
             About
           </li>
           <li
-            onClick={scrollToRole}
-            className="inline-block mx-4 cursor-pointer hover:scale-110 hover:text-lightBrandBlue transition-all ease-in-out duration-200"
+            onClick={scrollToLoc}
+            className="inline-block md:text-md mx-4 cursor-pointer hover:scale-110 hover:text-lightBrandBlue transition-all ease-in-out duration-200"
           >
-            Role
+            Location
           </li>
           <li
             onClick={scrollToNotes}
-            className="inline-block mx-4 cursor-pointer hover:scale-110 hover:text-lightBrandBlue transition-all ease-in-out duration-200"
+            className="inline-block md:text-md mx-4 cursor-pointer hover:scale-110 hover:text-lightBrandBlue transition-all ease-in-out duration-200"
           >
             Short Notes
           </li>

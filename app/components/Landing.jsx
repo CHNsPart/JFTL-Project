@@ -1,5 +1,7 @@
 'use-client';
 import React from 'react';
+import Image from 'next/image';
+import logo from '../../public/JFTLLogo.jpg'
 //import videoBg from '../../public/jftlbg.mp4'
 import './landing.css';
 
@@ -11,7 +13,7 @@ const Landing = () => {
       />
       <video
         className="w-full h-full object-cover"
-        src="https://chnspart.com/JFTL/JFTL-VID-PRO.mp4"
+        src="https://chnspart.com/JFTL/landingVid.mp4"
         controls={false}
         muted={true}
         autoPlay={true}
@@ -21,7 +23,8 @@ const Landing = () => {
       <section className="absolute flex flex-row justify-center items-center w-full h-full">
         <div className="flex flex-row justify-center items-center h-full w-full">
           <div className="flex flex-col justify-center items-center">
-            <h1 className="text-4xl leading-tight text-white font-bold text-center">
+            <Image src={logo} height={120} width={120} className="mb-10 rounded-lg shadow-xl shadow-brandBlue/50" />
+            <h1 className="text-6xl leading-tight text-white font-bold text-center">
               <span className="text-red-500/90 bg-white px-2 rounded-lg">
                 JAPAN
               </span>{' '}

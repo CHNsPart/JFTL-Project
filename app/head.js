@@ -1,7 +1,7 @@
 export default function Head() {
   return (
     <>
-      <title>JFTL</title>
+      <title>JFTL | Japan Fast Trade Ltd</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta name="description" content="JFTL Web Page" />
       <meta name="author" content="Touhidul Islam Chayan, CHNsPart" />

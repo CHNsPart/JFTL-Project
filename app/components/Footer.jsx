@@ -2,10 +2,15 @@
 import React from 'react';
 import Image from 'next/image';
 import footer from '../../public/FooterNew.png';
-import linkedin from '../../public/linkedin.png';
-import insta from '../../public/insta.png';
-import whatsapp from '../../public/whatsapp.png';
-import facebook from '../../public/facebook.png';
+// import linkedin from '../../public/linkedin.png';
+// import insta from '../../public/insta.png';
+// import whatsapp from '../../public/whatsapp.png';
+// import facebook from '../../public/facebook.png';
+import C1 from "../../public/C1.jpeg"
+import C2 from "../../public/C2.jpeg"
+import C3 from "../../public/C3.jpeg"
+import C4 from "../../public/C4.jpeg"
+import C5 from "../../public/C5.jpeg"
 
 const date = new Date().getFullYear();
 
@@ -58,33 +63,41 @@ const Footer = () => {
         <div className="flex flex-row justify-end items-center w-full">
           <div className="pr-10 hover:scale-90 duration-300 cursor-pointer transition-all delay-200 ease-out relative -bottom-44 tracking-wide align-text-bottom leading-10">
             <Image
-              src={insta}
-              height="auto"
-              width="auto"
+              src={C1}
+              height="100"
+              width="100"
               className="h-auto w-full"
             />
           </div>
           <div className="pr-10 hover:scale-90 duration-300 cursor-pointer transition-all delay-200 ease-out relative -bottom-44 tracking-wide align-text-bottom leading-10">
             <Image
-              src={facebook}
-              height="auto"
-              width="auto"
+              src={C2}
+              height="80"
+              width="80"
               className="h-auto w-full"
             />
           </div>
           <div className="pr-10 hover:scale-90 duration-300 cursor-pointer transition-all delay-200 ease-out relative -bottom-44 tracking-wide align-text-bottom leading-10">
             <Image
-              src={linkedin}
-              height="auto"
-              width="auto"
+              src={C3}
+              height="80"
+              width="80"
               className="h-auto w-full"
             />
           </div>
           <div className="pr-10 hover:scale-90 duration-300 cursor-pointer transition-all delay-200 ease-out relative -bottom-44 tracking-wide align-text-bottom leading-10">
             <Image
-              src={whatsapp}
-              height="auto"
-              width="auto"
+              src={C4}
+              height="80"
+              width="80"
+              className="h-auto w-full"
+            />
+          </div>
+          <div className="pr-10 hover:scale-90 duration-300 cursor-pointer transition-all delay-200 ease-out relative -bottom-44 tracking-wide align-text-bottom leading-10">
+            <Image
+              src={C5}
+              height="80"
+              width="80"
               className="h-auto w-full"
             />
           </div>

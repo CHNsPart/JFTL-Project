@@ -13,7 +13,7 @@ const Landing = () => {
       />
       <video
         className="w-full h-full object-cover"
-        src="https://chnspart.com/JFTL/landingVid.mp4"
+        src="https://jftl-bd.com/landingVid.mp4"
         controls={false}
         muted={true}
         autoPlay={true}

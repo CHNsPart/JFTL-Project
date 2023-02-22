@@ -34,7 +34,7 @@ const Location = () => {
             muted
             className='rounded-xl'
         >
-            <source src="https://chnspart.com/JFTL/JFTLdrone.webm" type='video/webm' />
+            <source src="https://jftl-bd.com/JFTLdrone.webm" type='video/webm' />
             Your browser does not support the video tag.
       </video>
         </div>

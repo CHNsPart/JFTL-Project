@@ -1,12 +1,9 @@
 import React from 'react';
-// import Image from 'next/image';
-// import map from '../../public/JFTL-Map.png';
-import { GiBurningForest } from 'react-icons/gi';
+
 
 const About = () => {
   return (
     <div className="min-h-[100%] py-20 flex flex-col justify-center items-center w-full">
-{/*       <div className='bg-[url("/crabbgf.png")] bg-no-repeat bg-center bg-cover lg:min-h-[66.5rem] xl:min-h-[53rem] w-full absolute -z-10 opacity-20' /> */}
       <h1 className="text-7xl mb-10 w-full text-center text-bold font-black text-brandBlue">
         About Us
       </h1>

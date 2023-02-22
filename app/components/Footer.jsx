@@ -17,8 +17,8 @@ const date = new Date().getFullYear();
 const Footer = () => {
   return (
     <div className="flex h-auto w-full flex-col justify-center items-center bg-black">
-      <Image
-        src={footer}
+      <img
+        src={footer.src}
         height="auto"
         width="auto"
         className="h-auto w-full"

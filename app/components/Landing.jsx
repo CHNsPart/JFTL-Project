@@ -2,7 +2,6 @@
 import React from 'react';
 import Image from 'next/image';
 import logo from '../../public/JFTLLogo.jpg'
-//import videoBg from '../../public/jftlbg.mp4'
 import './landing.css';
 
 const Landing = () => {

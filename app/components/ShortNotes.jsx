@@ -6,7 +6,6 @@ import { MdOutlineImportExport } from 'react-icons/md';
 import { GiSadCrab } from 'react-icons/gi';
 import { AiFillSafetyCertificate } from 'react-icons/ai';
 import { BiWorld } from 'react-icons/bi';
-//import crabbg from "../../public/crabbgf.png"
 
 const ShortNotes = () => {
   return (

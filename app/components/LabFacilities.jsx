@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image';
-import softShell from '../../public/softshell.png';
 import mlab1 from '../../public/mlab1.png';
 import mlab2 from '../../public/mlab2.png';
 import mlab3 from '../../public/mlab3.png';

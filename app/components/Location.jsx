@@ -2,8 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import map from "../../public/JFTL-Map.png"
-import aer from "/public/drone.JPG"
-//import drone from "../../public/drone.webm"
+/* import drone from "../../public/drone.JPG" */
 
 const Location = () => {
   return (
@@ -17,7 +16,7 @@ const Location = () => {
                 Explore the Beauty and Delicacy of Bangladeshi Seafood from the mother nature, the Sundarban Mangrove Forest (the largest single terrain mangrove forest of the world)
             </p>
             <div className='w-full flex flex-col justify-center items-center px-4 pt-4'>
-                <Image src={aer} className='object-contain rounded-3xl brightness-80 contrast-80 hue-rotate-50' />
+                {/* <Image src={drone} className='object-contain rounded-3xl brightness-80 contrast-80 hue-rotate-50' /> */}
                 <p className='pt-5 italic font-sans font-semibold text-yellow-700'>
                     Aerial view of JFTL project at Shyamnagar, Satkhira; Total area: 50 Acres (Located just beside the Sundarbans, world’s largest mangrove forest)
                 </p>

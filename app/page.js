@@ -5,11 +5,9 @@ import ShortNotes from './components/ShortNotes';
 import Footer from './components/Footer';
 import CompanyBar from './components/CompanyBar';
 import ValueChain from './components/ValueChain';
-import ProductStart from './components/ProductStart';
 import ValueDetails from './components/ValueDetails';
 import CrabFarming from './components/CrabFarming';
 import CrabProcessing from './components/CrabProcessing';
-import Example from './components/Example';
 import Vision from './components/Vision';
 import Mission from './components/Mission';
 import Location from './components/Location';
@@ -38,7 +36,7 @@ export default function Home() {
         <Landing />
       </div>
         <About />
-     {/*  <ProductStart /> */}
+
       <Vision/>
 
       <Mission/>
@@ -75,7 +73,6 @@ export default function Home() {
 
       <Footer />
 
-      {/* <Example/> */}
     </main>
   );
 }

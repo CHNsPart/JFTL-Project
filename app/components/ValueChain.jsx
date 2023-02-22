@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import valueComp from '../../public/valueComp.png';
-import { GiCatch } from 'react-icons/gi';
 
 const ValueChain = () => {
   return (

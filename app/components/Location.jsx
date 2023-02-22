@@ -2,7 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import map from "../../public/JFTL-Map.png"
-import aer from "../../public/drone.JPG"
+import aer from "/public/drone.JPG"
 //import drone from "../../public/drone.webm"
 
 const Location = () => {

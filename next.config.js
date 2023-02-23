@@ -1,0 +1,16 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  experimental: {
+    appDir: true,
+  },
+  reactStrictMode: true,
+  swcMinify: true,
+  images: {
+    domains: ['jftl-bd.com/']
+  }
+};
+
+module.exports = nextConfig;
+
+
+// next.config.js for production with next 13

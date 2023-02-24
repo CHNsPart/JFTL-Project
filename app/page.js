@@ -1,4 +1,5 @@
 //import Image from 'next/image';
+"use client"
 import Landing from './components/Landing';
 import About from './components/About';
 import ShortNotes from './components/ShortNotes';
